@@ -1,0 +1,25 @@
+.notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(106, 27, 154, 0.8); /* Semi-transparent purple */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgba(106, 27, 154, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.notification:hover {
+    background: rgba(142, 36, 170, 0.9); /* Lighter purple on hover */
+}
+
+.notification button {
+    background: #6a1b9a; /* Purple */
+    color: white;
+}
+
+.notification button:hover {
+    background: #8e24aa; /* Lighter purple on hover */
+}

@@ -39,3 +39,18 @@ button:hover {
   align-items: center;
   min-height: 100vh;
 }
+.appBar {
+  border-radius: 15px;
+  margin: 30px 100px;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+  width: 600px !important;
+  border: 2px solid #6a1b9a; /* Purple border */
+  background-color: rgba(58, 1, 111, 0.8); /* Semi-transparent purple */
+}
+
+.appBar:hover {
+  background-color: rgba(106, 0, 136, 0.9); /* Lighter purple on hover */
+}

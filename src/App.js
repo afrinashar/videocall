@@ -24,7 +24,7 @@ function App() {
     <div className='wrapper'>
       <AppBar className='appBar' position='static' color='inherit'>
         <Typography variant='h2' align='center'>
-          Video Chat
+          Video Communication
         </Typography>
       </AppBar>
 
